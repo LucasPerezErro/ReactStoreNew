@@ -1,0 +1,51 @@
+.item-card:hover .item-card_favicon {
+    display: block;
+}
+
+.item-card_favicon {
+    display: none;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: none;
+    margin: 5px 15px;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+    color: #8c8c8e;
+}
+
+.item-card_favicon.favorite {
+    display: block;
+    background-color: rgb(223, 117, 84);
+    color: white;
+}
+
+.item-card:hover .item-card_favicon {
+    display: block;
+}
+
+.item-card_favicon {
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    right: 0;
+    border-radius: 10%;
+    border: none;
+    margin: 5px 15px;
+    padding: 5px 6px;
+    cursor: pointer;
+    background-color: rgb(14, 53, 7);
+    color: #8c8c8e;
+}
+
+.item-card_favicon.favorite {
+    display: block;
+    background-color: rgb(70, 253, 33);
+    color: white;
+}
