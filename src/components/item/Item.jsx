@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Item(props) {
   //destructuracion
   const { id, title, price, detail, imgurl, discount } = props;
-  const urlDetail = `/item/ ${id}`
+  const urlDetail = `/item/${id}`
   return (
     <>
       <div className="card">
